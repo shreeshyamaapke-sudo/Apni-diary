@@ -3,7 +3,7 @@ import S from "./styles.js";
 import { QUOTES, MOODS, HABITS, MONTHS, WEEK_DAYS, QUICK_PROMPTS } from "./constants.js";
 import { getTodayKey, getWeek7, fmtDateKey, readableDate, todayFull, getDayQuote, sGet, sSet, askAI } from "./utils.js";
 
-const KEY = import.meta.env.VITE_GEMINI_KEY || "";
+const KEY = import.meta.env.VITE_GROQ_KEY || "";
 
 export default function App() {
   const TODAYKEY = getTodayKey();
